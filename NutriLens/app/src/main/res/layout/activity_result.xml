@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greenLight"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:text="Meal Analysis"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/greenDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/foodImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sample_food"/>
+
+    <TextView
+        android:id="@+id/txtFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rice + Dal + Roti"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/txtCalories"
+        android:text="Calories: 620 kcal"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/greenDark"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtHealth"
+        android:text="Health Score: Moderate"
+        android:textSize="18sp"
+        android:textColor="@color/greenPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Save Meal"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/greenPrimary"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

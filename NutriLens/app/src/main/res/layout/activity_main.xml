@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greenLight"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/ic_carrot"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NutriLens"
+        android:textColor="@color/greenDark"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AI-Based Smart Meal Analyzer"
+        android:textColor="@color/textDark"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Get Started"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/greenPrimary"/>
+
+</LinearLayout>
